@@ -7,3 +7,12 @@ A toll gate automation system powered by an ultrasonic sensor and servo motor. W
 -   **Automated Gate MOtion**
 -   **Audible Alerts**
 -   **Indicator LEDs**
+
+## Components Used
+-   Arduino Uno
+-   HC-SR04 Ultrasonic Sensor
+-   Piezo Buzzer
+-   Servo Motor
+-   LEDs (2)
+-   220Ω Resistors (Current limiting)
+-   Breadboard, Jumper Wires
