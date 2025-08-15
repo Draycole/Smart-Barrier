@@ -13,6 +13,13 @@ A toll gate automation system powered by an ultrasonic sensor and servo motor. W
 -   HC-SR04 Ultrasonic Sensor
 -   Piezo Buzzer
 -   Servo Motor
--   LEDs (2)
+-   LEDs (x2)
 -   220Ω Resistors (Current limiting)
 -   Breadboard, Jumper Wires
+
+## How It Works
+
+- The servo motor is set to face downwards and the steady LED (blue) stays on.
+- When an apporoaching vehicle is detected the servo raises the toll gate.
+- The active LED (red) comes on and the buzzer beeps a tone.
+- After 1.5 seconds if no vehicle is still detected then the system resets.
