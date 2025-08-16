@@ -23,3 +23,8 @@ A toll gate automation system powered by an ultrasonic sensor and servo motor. W
 - When an apporoaching vehicle is detected the servo raises the toll gate.
 - The active LED (red) comes on and the buzzer beeps a tone.
 - After 1.5 seconds if no vehicle is still detected then the system resets.
+
+## Circuit Schematic
+
+You can find a link to the online achematic here. Developed using TinkerCAD <sup>TM</sup>
+
