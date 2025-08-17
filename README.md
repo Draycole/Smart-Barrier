@@ -30,6 +30,6 @@ You can find a link to the online schematic [here](https://www.tinkercad.com/thi
 
 ## Demo Video
 
-The demo video's on my portfolio page. The hyperlink is a link to the section on the webpage.
+The demo video's on my portfolio page. The hyperlink is a link to the section on the webpage. <br>
 [Demo Video]
 
