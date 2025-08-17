@@ -31,5 +31,5 @@ You can find a link to the online schematic [here](https://www.tinkercad.com/thi
 ## Demo Video
 
 The demo video's on my portfolio page. The hyperlink is a link to the section on the webpage. <br>
-[Demo Video]
+[Demo Video](https://munachimsohenry.wixsite.com/my-site/blank#:~:text=the%20next%20vehicle.-,Demonstration%20Video,-In%20this%20video)
 
