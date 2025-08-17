@@ -28,3 +28,8 @@ A toll gate automation system powered by an ultrasonic sensor and servo motor. W
 
 You can find a link to the online schematic [here](https://www.tinkercad.com/things/1XyfDf9cBiv-servo-smart-barrier?sharecode=uQ-IlKGvOhFteAmBcTdjKXaosm15e0IbY3eXXdkqTrU). Developed using TinkerCAD <sup>TM</sup>
 
+## Demo Video
+
+The demo video's on my portfolio page. The hyperlink is a link to the section on the webpage.
+[Demo Video]
+
