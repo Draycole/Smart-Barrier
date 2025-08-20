@@ -21,7 +21,7 @@ void setup() {
     pinMode(leds[i], OUTPUT);
   }
 
-  pinMode(buzzer, OUTPUT);    //define buzzer as output
+  pinMode(buzzer, OUTPUT);   
 }
 
 void loop() {
