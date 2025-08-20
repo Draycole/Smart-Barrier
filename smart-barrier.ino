@@ -73,6 +73,6 @@ void loop() {
     delay(500);
   } 
 
-  //add small delay between readings
+  //Delay between readings
   delay(500);
 }
