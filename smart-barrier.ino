@@ -15,8 +15,7 @@ void setup() {
   pinMode(trigPin, OUTPUT);   // Set trigPin as output
   pinMode(echoPin, INPUT);    // Set echoPin as input
   
-  myServo.attach(3);    // attach the servo to pin 3
-
+  myServo.attach(3);    // Define Servo Pin
   for (int i = 0; i < 2; i++){    //define leds as output pins
     pinMode(leds[i], OUTPUT);
   }
