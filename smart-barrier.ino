@@ -1,6 +1,6 @@
-#include <Servo.h>    //servo library included
+#include <Servo.h>    
 
-#define trigPin 9     //defines the trig and echopins for the ultrasonic sensor
+#define trigPin 9     
 #define echoPin 10
 
 int leds[2] = {5,6};  //open led is on pin 5, closed is on pin 6. 
