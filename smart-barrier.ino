@@ -10,7 +10,7 @@ const int buzzer = 11; //defines buzzer pin
 Servo myServo;      //creates the servo object
 
 void setup() {
-  Serial.begin(9600);   //initialize serial comms
+  Serial.begin(9600);   
 
   pinMode(trigPin, OUTPUT);   // Set trigPin as output
   pinMode(echoPin, INPUT);    // Set echoPin as input
