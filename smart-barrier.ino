@@ -57,16 +57,15 @@ void loop() {
     myServo.write(90);      //set servo flat
   } 
   else {
-    digitalWrite(leds[0], HIGH); // Closer than 14 cm
+    digitalWrite(leds[0], HIGH); // Closer than 14 cm set servo to open the barrier
+    myServo.write(0); 
 
-    myServo.write(0); //set servo to open the bin
-
-    //make the buzzer beep
+    //Buzzer tone
     for (int i=0; i<10; i++) {
         tone(buzzer, 1000); // send 1KHz sound signal
         delay(100);        // wait 0.1 sec
         noTone(buzzer);     // Stop sound
-        delay(100);        // wait 0.1 sec
+        delay(100);        
     }
 
     delay(500);
