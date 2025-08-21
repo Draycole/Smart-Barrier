@@ -5,9 +5,9 @@
 
 int leds[2] = {5,6};  //open led is on pin 5, closed is on pin 6. 
 
-const int buzzer = 11; //defines buzzer pin
+const int buzzer = 11; 
 
-Servo myServo;      //creates the servo object
+Servo myServo; 
 
 void setup() {
   Serial.begin(9600);   
