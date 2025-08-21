@@ -12,11 +12,11 @@ Servo myServo;
 void setup() {
   Serial.begin(9600);   
 
-  pinMode(trigPin, OUTPUT);   // Set trigPin as output
-  pinMode(echoPin, INPUT);    // Set echoPin as input
+  pinMode(trigPin, OUTPUT);   
+  pinMode(echoPin, INPUT);    
   
   myServo.attach(3);    // Define Servo Pin
-  for (int i = 0; i < 2; i++){    //define leds as output pins
+  for (int i = 0; i < 2; i++){    //Define LED pins as output
     pinMode(leds[i], OUTPUT);
   }
 
@@ -32,29 +32,28 @@ void loop() {
   delayMicroseconds(10);
   digitalWrite(trigPin, LOW);
 
-  // measure the time it takes to receive the echo
+  // Measure echo time
   long duration = pulseIn(echoPin, HIGH);
 
-  // convert duration to distance in centimeters; assuming the speed of sound in air is 340m/s
+  // Convert duration to dictance in cm assuming the speed of sound assumed to be 340m/s
   long distance = duration * 0.034 / 2;
 
-  // print the distance to the Serial Monitor
   Serial.print("Distance: ");
   Serial.print(distance);
   Serial.println(" cm");
   
-  //  turn off all leds
+  //  Turn off all LEDs
   for (int i=0; i<2; i++) {
     digitalWrite(leds[i], LOW);
   }
 
-  //set servo to flat
+  //Set gate flat
   myServo.write(90);
 
   //light up based on distance
   if (distance > 14) {
-    digitalWrite(leds[1], HIGH); // Farther than 14 cm
-    myServo.write(90);      //set servo flat
+    digitalWrite(leds[1], HIGH); // Farther than 14 cm set servo to close the barrier
+    myServo.write(90);      
   } 
   else {
     digitalWrite(leds[0], HIGH); // Closer than 14 cm set servo to open the barrier
@@ -63,8 +62,8 @@ void loop() {
     //Buzzer tone
     for (int i=0; i<10; i++) {
         tone(buzzer, 1000); // send 1KHz sound signal
-        delay(100);        // wait 0.1 sec
-        noTone(buzzer);     // Stop sound
+        delay(100);        
+        noTone(buzzer);     
         delay(100);        
     }
 
