@@ -33,3 +33,9 @@ You can find a link to the online schematic [here](https://www.tinkercad.com/thi
 The demo video's on my portfolio page. The hyperlink is a link to the section on the webpage. <br>
 [Demo Video](https://munachimsohenry.wixsite.com/my-site/blank#:~:text=the%20next%20vehicle.-,Demonstration%20Video,-In%20this%20video)
 
+## License
+
+MIT License
+
+## Author
+Munachimso Henry - EEE @ Covenant University
