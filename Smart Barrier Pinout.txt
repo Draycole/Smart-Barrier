@@ -1,0 +1,26 @@
+Smart Barrier Pinout
+
+HC SR-04 Ultrasonic Sensor
+Vcc
+Trig - 9
+Echo - 10
+GND
+
+SG90 Servo
+Vcc 
+Data - 3
+GND
+
+Open_LED
+Data - 5
+GND
+
+Closed_LED
+Data - 6
+GND
+
+Piezo Buzzer
+Data - 11
+GND
+
+All Vcc goes to the 5V power rail
